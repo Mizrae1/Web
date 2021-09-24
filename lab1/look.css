@@ -1,0 +1,39 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.imgblock {
+	position: relative;
+    display: inline-block;
+    -webkit-user-select: none;
+}
+
+.imgblock img {
+    height: 1000px;
+    width: 1000px;
+}
+
+.imgblock span {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    width: 425px;
+    height: 445px;
+    color: #fff;
+    position: absolute;
+    right: 192px;
+    bottom: 130px;
+    font-size: 28px;
+}
